@@ -24,6 +24,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.postgresql:postgresql:42.7.1'
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -35,7 +36,6 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-    jkdnasknfdjknflsdf
 }
 
 tasks.named('test') {
