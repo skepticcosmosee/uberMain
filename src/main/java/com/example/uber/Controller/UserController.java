@@ -19,6 +19,7 @@ import jakarta.persistence.Table;
 
         @Autowired
         private UserService userService;
+        int i;
 
         @PostMapping("/register")
         public ResponseEntity<User> register(@RequestBody User user) {
